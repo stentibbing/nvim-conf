@@ -1,0 +1,33 @@
+-- mason's installed tools and running lsp servers
+return {
+    ensure_installed = {
+        "lua-language-server",
+        "stylua",
+        "html-lsp",
+        "css-lsp",
+        "json-lsp",
+        "tailwindcss-language-server",
+        "prettierd",
+        "typescript-language-server",
+        "svelte-language-server",
+        "gopls",
+        "goimports",
+        "goimports-reviser",
+        "templ",
+        "intelephense",
+        "pretty-php",
+    },
+    servers = {
+        "lua_ls",
+        "html",
+        "cssls",
+        "jsonls",
+        "tailwindcss",
+        "tsserver",
+        "svelte",
+        "tailwindcss",
+        "gopls",
+        "templ",
+        "intelephense",
+    },
+}

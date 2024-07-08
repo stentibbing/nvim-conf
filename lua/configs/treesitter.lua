@@ -1,0 +1,25 @@
+-- ensure installed
+return {
+    "css",
+    "dockerfile",
+    "go",
+    "gomod",
+    "gosum",
+    "html",
+    "javascript",
+    "json",
+    "lua",
+    "luadoc",
+    "make",
+    "php",
+    "regex",
+    "scss",
+    "svelte",
+    "templ",
+    "toml",
+    "typescript",
+    "vim",
+    "vimdoc",
+    "xml",
+    "yaml"
+}

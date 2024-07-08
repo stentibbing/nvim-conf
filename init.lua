@@ -1,0 +1,5 @@
+require("options")
+require("lazy_conf")
+require("autocmds")
+require("ui")
+require("keymaps")
